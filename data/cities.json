@@ -1,0 +1,124 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "e50e",
+      "cityName": "Hakodate",
+      "country": "Japan",
+      "date": "2024-05-05T03:20:43.748Z",
+      "notes": "今度はいくら食べたい",
+      "position": {
+        "lat": 41.6236545273908,
+        "lng": 140.68537626137064
+      },
+      "emoji": "🇯🇵"
+    },
+    {
+      "id": "80a0",
+      "cityName": "Sapporo",
+      "country": "Japan",
+      "date": "2024-05-05T03:21:42.009Z",
+      "notes": "夏に行きたい",
+      "position": {
+        "lat": 43.118343976826104,
+        "lng": 141.4547065494243
+      },
+      "emoji": "🇯🇵"
+    },
+    {
+      "id": "d739",
+      "cityName": "Shuangyashan",
+      "country": "China",
+      "date": "2024-05-05T03:24:37.628Z",
+      "notes": "",
+      "position": {
+        "lat": 46.15016088921612,
+        "lng": 132.16514674238095
+      },
+      "emoji": "🇨🇳"
+    },
+    {
+      "id": "0323",
+      "cityName": "Seoul",
+      "country": "Korea (the Republic of)",
+      "date": "2024-05-05T03:25:13.810Z",
+      "notes": "",
+      "position": {
+        "lat": 37.53197006399038,
+        "lng": 126.97760991516668
+      },
+      "emoji": "🇰🇷"
+    },
+    {
+      "id": "e69c",
+      "cityName": "Ulsan",
+      "country": "Korea (the Republic of)",
+      "date": "2024-05-05T03:25:43.013Z",
+      "notes": "",
+      "position": {
+        "lat": 35.498426615260456,
+        "lng": 129.28242962553165
+      },
+      "emoji": "🇰🇷"
+    },
+    {
+      "id": "47d9",
+      "cityName": "Obihiro",
+      "country": "Japan",
+      "date": "2024-05-05T03:26:47.150Z",
+      "notes": "おびひろ",
+      "position": {
+        "lat": 42.715813014389084,
+        "lng": 143.2114868282222
+      },
+      "emoji": "🇯🇵"
+    },
+    {
+      "id": "2ca3",
+      "cityName": "Maebashi",
+      "country": "Japan",
+      "date": "2024-05-05T08:50:43.355Z",
+      "notes": "gunma",
+      "position": {
+        "lat": 36.3846897352016,
+        "lng": 139.05648717315935
+      },
+      "emoji": "🇯🇵"
+    },
+    {
+      "id": "5e01",
+      "cityName": "Shintomi",
+      "country": "Japan",
+      "date": "2024-05-11T08:52:54.000Z",
+      "notes": "",
+      "position": {
+        "lat": 32.07955343378596,
+        "lng": 131.46154456935625
+      },
+      "emoji": "🇯🇵"
+    }
+  ]
+}
