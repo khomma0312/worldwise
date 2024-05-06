@@ -25,11 +25,9 @@ const City: FC = () => {
     if (id) {
       getCity(id);
     }
-  }, [id]);
+  }, [id, getCity]);
 
   const [searchParams, setSearchParams] = useSearchParams();
-  const lat = searchParams.get('lat');
-  const lng = searchParams.get('lng');
 
   const {cityName, emoji, date, notes} = currentCity;
 

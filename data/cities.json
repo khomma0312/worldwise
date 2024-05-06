@@ -119,6 +119,18 @@
         "lng": 131.46154456935625
       },
       "emoji": "🇯🇵"
+    },
+    {
+      "id": "90da",
+      "cityName": "Lusambo",
+      "country": "Congo (the Democratic Republic of the)",
+      "date": "2024-05-06T02:29:10.144Z",
+      "notes": "",
+      "position": {
+        "lat": -5.450382312750457,
+        "lng": 23.965595362641757
+      },
+      "emoji": "🇨🇩"
     }
   ]
 }

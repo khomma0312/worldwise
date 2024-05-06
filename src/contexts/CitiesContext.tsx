@@ -1,5 +1,5 @@
 import City from "@/components/City";
-import { ReactNode, Reducer, createContext, useContext, useEffect, useReducer } from "react";
+import { ReactNode, Reducer, createContext, useCallback, useContext, useEffect, useReducer } from "react";
 
 const BASE_URL = "http://localhost:8000";
 
@@ -129,7 +129,7 @@ export const CitiesProvider: React.FC<{children: ReactNode}> = ({ children }) =>
     fetchCities();
   }, []);
 
-  const getCity = async (id: string) => {
+  const getCity = useCallback(async (id: string) => {
     if (id === currentCity.id) return;
 
     dispatch({type: "loading"});
@@ -141,7 +141,7 @@ export const CitiesProvider: React.FC<{children: ReactNode}> = ({ children }) =>
     } catch (error) {
       dispatch({type: "rejected", payload: {error: "Error fetching city"}});
     }
-  };
+  }, [currentCity.id]);
 
   const createCity = async (newCity: CityData) => {
     dispatch({type: "loading"});
